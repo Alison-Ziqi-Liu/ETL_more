@@ -26,8 +26,8 @@ for MONTH in {1..12}; do
     mkdir -p ${LOCAL_PREFIX}
     #download the file with path&name
     wget ${URL} -O ${LOCAL_PATH}
-    #compress the file
-    gzip ${LOCAL_PATH}
+    #optional, compress the file
+    #gzip ${LOCAL_PATH}
 done
 
 
